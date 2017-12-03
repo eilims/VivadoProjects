@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Sep 29 14:05:22 2017
+# Process ID: 400
+# Current directory: D:/VivadoProjects/ECE524_PRELAB4/ECE524_PRELAB4.runs/c_shift_ram_0_synth_1
+# Command line: vivado.exe -log c_shift_ram_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source c_shift_ram_0.tcl
+# Log file: D:/VivadoProjects/ECE524_PRELAB4/ECE524_PRELAB4.runs/c_shift_ram_0_synth_1/c_shift_ram_0.vds
+# Journal file: D:/VivadoProjects/ECE524_PRELAB4/ECE524_PRELAB4.runs/c_shift_ram_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source c_shift_ram_0.tcl -notrace

@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../ECE524_Homework1.srcs/sim_Q1/new/Q1_tb.vhd"
+
+# Do not sort compile order
+nosort

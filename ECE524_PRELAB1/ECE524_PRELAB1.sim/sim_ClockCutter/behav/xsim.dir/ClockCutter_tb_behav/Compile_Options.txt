@@ -1,0 +1,1 @@
+-wto "374454d074b14369a7d0018ae9c32564" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "ClockCutter_tb_behav" "xil_defaultlib.ClockCutter_tb" -log "elaborate.log" 

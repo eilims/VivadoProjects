@@ -1,0 +1,252 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Sep 22 12:49:25 2017
+# Process ID: 3664
+# Current directory: D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.runs/synth_1
+# Command line: vivado.exe -log cic.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cic.tcl
+# Log file: D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.runs/synth_1/cic.vds
+# Journal file: D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cic.tcl -notrace
+Command: synth_design -top cic -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10232 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 307.461 ; gain = 80.766
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'cic' [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:17]
+	Parameter CI_SIZE bound to: 18 - type: integer 
+	Parameter CO_SIZE bound to: 30 - type: integer 
+	Parameter STAGES bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'cic' (1#1) [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:17]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 347.789 ; gain = 121.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 347.789 ; gain = 121.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 347.789 ; gain = 121.094
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[5] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[4] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[3] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[2] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[1] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 347.789 ; gain = 121.094
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     30 Bit       Adders := 5     
++---Registers : 
+	               30 Bit    Registers := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module cic 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     30 Bit       Adders := 5     
++---Registers : 
+	               30 Bit    Registers := 12    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[1] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[2] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[3] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[4] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element d_fs_reg[5] was removed.  [D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd:43]
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][17]' (FDRE) to 'd_fs_reg[0][18]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][18]' (FDRE) to 'd_fs_reg[0][19]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][19]' (FDRE) to 'd_fs_reg[0][20]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][20]' (FDRE) to 'd_fs_reg[0][21]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][21]' (FDRE) to 'd_fs_reg[0][22]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][22]' (FDRE) to 'd_fs_reg[0][23]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][23]' (FDRE) to 'd_fs_reg[0][24]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][24]' (FDRE) to 'd_fs_reg[0][25]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][25]' (FDRE) to 'd_fs_reg[0][26]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][26]' (FDRE) to 'd_fs_reg[0][27]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][27]' (FDRE) to 'd_fs_reg[0][28]'
+INFO: [Synth 8-3886] merging instance 'd_fs_reg[0][28]' (FDRE) to 'd_fs_reg[0][29]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 497.609 ; gain = 270.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 497.609 ; gain = 270.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 497.984 ; gain = 271.289
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    80|
+|3     |LUT2   |   301|
+|4     |FDRE   |   498|
+|5     |IBUF   |    22|
+|6     |OBUF   |    30|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   932|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 497.984 ; gain = 271.289
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 102 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+22 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 583.047 ; gain = 360.449
+INFO: [Common 17-1381] The checkpoint 'D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.runs/synth_1/cic.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 583.047 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 22 12:50:25 2017...

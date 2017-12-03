@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../Homework1_DBenusovich/Homework1_DBenusovich.srcs/sources_1/new/AND_DB.vhd"
+vhdl xil_defaultlib  "../../../../Homework1_DBenusovich/Homework1_DBenusovich.srcs/sources_1/new/Full_Adder_1.vhd"
+vhdl xil_defaultlib  "../../../../Homework1_DBenusovich/Homework1_DBenusovich.srcs/sources_1/new/MUX_4_DB.vhd"
+vhdl xil_defaultlib  "../../../../Homework1_DBenusovich/Homework1_DBenusovich.srcs/sources_1/new/NOT_2_DB.vhd"
+vhdl xil_defaultlib  "../../../../Homework1_DBenusovich/Homework1_DBenusovich.srcs/sources_1/new/OR_2_DB.vhd"
+vhdl xil_defaultlib  "../../../Homework3_DBenusovich.srcs/sources_1/new/Serial_Adder_8.vhd"
+vhdl xil_defaultlib  "../../../Homework3_DBenusovich.srcs/sim_Serial_Adder/new/Serial_Adder_8_tb.vhd"
+
+# Do not sort compile order
+nosort

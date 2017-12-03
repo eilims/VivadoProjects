@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/BarrelShifter.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/ClockDivider.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/BinaryCounter.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/ClockGenerator.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/FibonacciGenerator.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/MealyMachine.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/imports/new/PowerFunctions.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/ZeroCounter.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/MaxFunction.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/ShiftRegister.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/GenericClock.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/ParityFunction.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sim_FibonacciGenerator/new/FibonacciGenerator_tb.vhd"
+
+# Do not sort compile order
+nosort

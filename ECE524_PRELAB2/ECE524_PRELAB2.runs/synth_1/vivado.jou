@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Sep 22 12:49:25 2017
+# Process ID: 3664
+# Current directory: D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.runs/synth_1
+# Command line: vivado.exe -log cic.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cic.tcl
+# Log file: D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.runs/synth_1/cic.vds
+# Journal file: D:/VivadoProjects/ECE524_PRELAB2/ECE524_PRELAB2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source cic.tcl -notrace

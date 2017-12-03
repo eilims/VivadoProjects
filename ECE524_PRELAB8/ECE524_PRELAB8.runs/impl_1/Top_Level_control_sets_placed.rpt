@@ -1,0 +1,69 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Fri Nov 17 17:55:04 2017
+| Host         : Daniel running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Level_control_sets_placed.rpt
+| Design       : Top_Level
+| Device       : xc7z020
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     7 |
+| Unused register locations in slices containing registers |     8 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              12 |            9 |
+| No           | No                    | Yes                    |               4 |            3 |
+| No           | Yes                   | No                     |             128 |           33 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------+---------------+-------------------------------+------------------+----------------+
+|                 Clock Signal                 | Enable Signal |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++----------------------------------------------+---------------+-------------------------------+------------------+----------------+
+|  uut/FSM_sequential_nextState_reg[3]_i_2_n_0 |               |                               |                3 |              4 |
+|  oclk_OBUF_BUFG                              |               | debounceReset/AR[0]           |                3 |              4 |
+|  oclk_OBUF_BUFG                              |               |                               |                6 |              8 |
+|  oclk_OBUF_BUFG                              |               | debouncers[0].debouncer/count |                8 |             32 |
+|  oclk_OBUF_BUFG                              |               | debounceReset/count           |                8 |             32 |
+|  oclk_OBUF_BUFG                              |               | debouncers[1].debouncer/count |                7 |             32 |
+|  oclk_OBUF_BUFG                              |               | debouncers[2].debouncer/count |               10 |             32 |
++----------------------------------------------+---------------+-------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     2 |
+| 8      |                     1 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+

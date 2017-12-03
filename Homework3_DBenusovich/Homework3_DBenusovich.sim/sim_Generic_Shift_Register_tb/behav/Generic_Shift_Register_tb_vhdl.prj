@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Homework3_DBenusovich.srcs/sources_1/new/Generic_Shift_Register.vhd"
+vhdl xil_defaultlib  "../../../Homework3_DBenusovich.srcs/sim_Generic_Shift_Register_tb/new/Generic_Shift_Register_tb.vhd"
+
+# Do not sort compile order
+nosort

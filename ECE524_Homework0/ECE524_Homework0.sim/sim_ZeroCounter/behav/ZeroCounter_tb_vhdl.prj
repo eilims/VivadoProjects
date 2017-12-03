@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/BarrelShifter.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/ClockDivider.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/BinaryCounter.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/ClockGenerator.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/FibonacciGenerator.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/MealyMachine.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/PowerFunctions.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sources_1/new/ZeroCounter.vhd"
+vhdl xil_defaultlib  "../../../ECE524_Homework0.srcs/sim_ZeroCounter/new/ZeroCounter_tb.vhd"
+
+# Do not sort compile order
+nosort

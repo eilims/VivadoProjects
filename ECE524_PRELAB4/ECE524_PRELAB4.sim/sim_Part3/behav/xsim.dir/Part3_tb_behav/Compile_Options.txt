@@ -1,0 +1,1 @@
+-wto "f54d17d08ced49c58afedfb579a83400" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xbip_utils_v3_0_7" -L "c_reg_fd_v12_0_3" -L "c_mux_bit_v12_0_3" -L "c_shift_ram_v12_0_10" -L "secureip" -L "xpm" --snapshot "Part3_tb_behav" "xil_defaultlib.Part3_tb" -log "elaborate.log" 

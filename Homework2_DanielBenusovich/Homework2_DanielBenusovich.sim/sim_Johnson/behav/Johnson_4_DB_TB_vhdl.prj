@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../Homework2_DanielBenusovich.srcs/sources_1/new/Johnson_4_DB.vhd"
+vhdl xil_defaultlib  "../../../Homework2_DanielBenusovich.srcs/sim_4/new/Johnson_4_DB_TB.vhd"
+
+# Do not sort compile order
+nosort
