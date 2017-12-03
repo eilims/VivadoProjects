@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Sep  8 09:12:04 2017
+# Process ID: 4444
+# Current directory: D:/VivadoProjects/ECE524_Homework0/ECE524_Homework0.sim/sim_ClockDivider/behav
+# Command line: wbtcv.exe -mode batch -source D:/VivadoProjects/ECE524_Homework0/ECE524_Homework0.sim/sim_ClockDivider/behav/xsim.dir/ClockDivider_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/VivadoProjects/ECE524_Homework0/ECE524_Homework0.sim/sim_ClockDivider/behav/webtalk.log
+# Journal file: D:/VivadoProjects/ECE524_Homework0/ECE524_Homework0.sim/sim_ClockDivider/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/VivadoProjects/ECE524_Homework0/ECE524_Homework0.sim/sim_ClockDivider/behav/xsim.dir/ClockDivider_tb_behav/webtalk/xsim_webtalk.tcl -notrace

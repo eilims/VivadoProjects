@@ -1,0 +1,9 @@
+0.6
+2017.1
+Apr 14 2017
+19:10:27
+D:/VivadoProjects/ECE524_PRELAB7/ECE524_PRELAB7.srcs/sim_Serial_FIR/new/Serial_FIR_tb.vhd,1509139065,vhdl,,,,serial_implementation_fir_tb,,,,,,,,
+D:/VivadoProjects/ECE524_PRELAB7/ECE524_PRELAB7.srcs/sources_1/ip/dist_mem_gen_0/dist_mem_gen_0_sim_netlist.vhdl,1508468776,vhdl,,,,dist_mem_gen_0;dist_mem_gen_0_dist_mem_gen_v8_0_11,,,,,,,,
+D:/VivadoProjects/ECE524_PRELAB7/ECE524_PRELAB7.srcs/sources_1/new/Serial_Implementation_FIR.vhd,1508537609,vhdl,,,,serial_implementation_fir,,,,,,,,
+D:/VivadoProjects/ECE524_PRELAB7/ECE524_PRELAB7.srcs/sources_1/new/package.vhd,1508471987,vhdl,D:/VivadoProjects/ECE524_PRELAB7/ECE524_PRELAB7.srcs/sim_Serial_FIR/new/Serial_FIR_tb.vhd;D:/VivadoProjects/ECE524_PRELAB7/ECE524_PRELAB7.srcs/sources_1/new/Serial_Implementation_FIR.vhd,,,util_pkg,,,,,,,,
+D:/VivadoProjects/ECE524_PRELAB7/ECE524_PRELAB7.srcs/sources_1/new/rounder.vhd,1509137338,vhdl,,,,rounder,,,,,,,,

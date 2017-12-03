@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../ECE524_PRELAB2.srcs/sources_1/new/CIC_Filter.vhd"
+vhdl xil_defaultlib  "../../../ECE524_PRELAB2.srcs/sim_8Mhz/new/CIC_Filter_8Mhz_tb.vhd"
+
+# Do not sort compile order
+nosort

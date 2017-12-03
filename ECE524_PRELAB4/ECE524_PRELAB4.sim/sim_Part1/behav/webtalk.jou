@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Oct  5 22:01:00 2017
+# Process ID: 4916
+# Current directory: D:/VivadoProjects/ECE524_PRELAB4/ECE524_PRELAB4.sim/sim_Part1/behav
+# Command line: wbtcv.exe -mode batch -source D:/VivadoProjects/ECE524_PRELAB4/ECE524_PRELAB4.sim/sim_Part1/behav/xsim.dir/Part1_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/VivadoProjects/ECE524_PRELAB4/ECE524_PRELAB4.sim/sim_Part1/behav/webtalk.log
+# Journal file: D:/VivadoProjects/ECE524_PRELAB4/ECE524_PRELAB4.sim/sim_Part1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/VivadoProjects/ECE524_PRELAB4/ECE524_PRELAB4.sim/sim_Part1/behav/xsim.dir/Part1_tb_behav/webtalk/xsim_webtalk.tcl -notrace

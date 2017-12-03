@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Jul  2 13:27:29 2017
+# Process ID: 6184
+# Current directory: D:/VivadoProjects/Homework4_DanielBenusovich/Homework4_DanielBenusovich.sim/sim_Problem5/behav
+# Command line: wbtcv.exe -mode batch -source D:/VivadoProjects/Homework4_DanielBenusovich/Homework4_DanielBenusovich.sim/sim_Problem5/behav/xsim.dir/Problem5_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/VivadoProjects/Homework4_DanielBenusovich/Homework4_DanielBenusovich.sim/sim_Problem5/behav/webtalk.log
+# Journal file: D:/VivadoProjects/Homework4_DanielBenusovich/Homework4_DanielBenusovich.sim/sim_Problem5/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/VivadoProjects/Homework4_DanielBenusovich/Homework4_DanielBenusovich.sim/sim_Problem5/behav/xsim.dir/Problem5_tb_behav/webtalk/xsim_webtalk.tcl -notrace
