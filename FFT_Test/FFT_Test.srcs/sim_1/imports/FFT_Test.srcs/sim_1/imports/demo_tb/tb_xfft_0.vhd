@@ -93,7 +93,7 @@ architecture tb of tb_xfft_0 is
   -- Config slave channel signals
   signal s_axis_config_tvalid        : std_logic := '0';  -- payload is valid
   signal s_axis_config_tready        : std_logic := '1';  -- slave is ready
-  signal s_axis_config_tdata         : std_logic_vector(23 downto 0) := (others => '0');  -- data payload
+  signal s_axis_config_tdata         : std_logic_vector(31 downto 0) := (others => '0');  -- data payload
 
   -- Data slave channel signals
   signal s_axis_data_tvalid          : std_logic := '0';  -- payload is valid
