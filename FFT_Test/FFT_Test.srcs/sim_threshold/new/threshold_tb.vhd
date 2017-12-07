@@ -13,7 +13,7 @@ architecture behavioral of threshold_tb is
     constant Data_Length : integer := 12;
     constant Index_Length : integer := 13;
     constant Threshold : integer := 10;
-    signal clk, valid : std_logic := '0';
+    signal clk, i_valid, o_valid : std_logic := '0';
     signal i_data, o_data : std_logic_vector((Data_Length - 1) downto 0) := (others => '0');
     signal i_index, o_index : std_logic_vector((Index_Length - 1) downto 0) := (others => '0');
     
@@ -24,9 +24,10 @@ architecture behavioral of threshold_tb is
                     Threshold : Integer);
     
         Port (  clk : in STD_LOGIC;
+                i_valid : in std_logic;
                 i_data : in STD_LOGIC_VECTOR ((Data_Length - 1) downto 0);
                 i_index : in STD_LOGIC_VECTOR ((Index_Length - 1) downto 0);
-                valid : out STD_LOGIC;
+                o_valid : out STD_LOGIC;
                 o_data : out STD_LOGIC_VECTOR ((Data_Length - 1) downto 0);
                 o_index : out STD_LOGIC_VECTOR ((Index_Length - 1) downto 0));
     end component;
@@ -38,9 +39,10 @@ begin
                     Threshold => Threshold
                     )
     port map    (   clk => clk,
+                    i_valid => i_valid,
                     i_data => i_data,
                     i_index => i_index,
-                    valid => valid,
+                    o_valid => o_valid,
                     o_data => o_data,
                     o_index => o_index
                     );   
@@ -54,6 +56,7 @@ begin
     
     stimulus : process
     begin
+        i_valid <= '1';
         i_data <= "000000000010";
         i_index <= "0000000000000";
         wait for CLOCK_PERIOD;
@@ -71,6 +74,12 @@ begin
         wait for CLOCK_PERIOD;
         i_data <= "000000000011";
         i_index <= "0000000000101";
+        wait for CLOCK_PERIOD;
+        i_data <= "111111110110";
+        i_index <= "0000000000110";
+        wait for CLOCK_PERIOD;
+        i_data <= "111111111110";
+        i_index <= "0000000000111";
         wait for CLOCK_PERIOD;
 
         

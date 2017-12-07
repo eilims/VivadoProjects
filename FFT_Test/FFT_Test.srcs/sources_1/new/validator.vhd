@@ -34,9 +34,10 @@ entity validator is
               Threshold : Integer);
     
     Port ( clk : in STD_LOGIC;
+           i_valid : in std_logic := '0';
            i_data : in STD_LOGIC_VECTOR ((Data_Length - 1) downto 0) := (others => '0');
            i_index : in STD_LOGIC_VECTOR ((Index_Length - 1) downto 0) := (others => '0');
-           valid : out STD_LOGIC := '0';
+           o_valid : out STD_LOGIC := '0';
            o_data : out STD_LOGIC_VECTOR ((Data_Length - 1) downto 0) := (others => '0');
            o_index : out STD_LOGIC_VECTOR ((Index_Length - 1) downto 0) := (others => '0'));
 end validator;
@@ -46,13 +47,18 @@ architecture Behavioral of validator is
 begin
 
     validation: process (clk)
+        variable data : signed((Data_Length - 1) downto 0) := (others => '0');
     begin
         if (rising_edge(clk)) then
+            --convert input data to signed and take the absolute value
+            --this is due to the fft outputting negative values every other output cycle
+            data := signed(i_data);
+            data := abs(data);
             --Check if the magnitude of the bin exceeds the threshold of 10
-            if (i_data >= std_logic_vector(to_unsigned(Threshold, Data_Length))) then
-                valid <= '1';
+            if ((data >= to_signed(Threshold, Data_Length)) and i_valid = '1') then
+                o_valid <= '1';
             else
-                valid <= '0';
+                o_valid <= '0';
             end if;
             o_data <= i_data;
             o_index <= i_index;

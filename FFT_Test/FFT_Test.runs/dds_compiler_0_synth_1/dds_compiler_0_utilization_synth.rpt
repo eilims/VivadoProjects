@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-| Date         : Fri Dec  1 15:45:30 2017
+| Date         : Wed Dec  6 22:54:40 2017
 | Host         : Daniel running 64-bit major release  (build 9200)
 | Command      : report_utilization -file dds_compiler_0_utilization_synth.rpt -pb dds_compiler_0_utilization_synth.pb
 | Design       : dds_compiler_0
