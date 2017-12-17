@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tuner_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tuner_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6930000000001fs"></ZoomEndTime>
+      <Cursor1Time time="4600000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="210"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/tuner_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/sw" type="array">
+      <obj_property name="ElementShortName">sw[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/input" type="array">
+      <obj_property name="ElementShortName">input[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/o_led" type="array">
+      <obj_property name="ElementShortName">o_led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft_data" type="array">
+      <obj_property name="ElementShortName">fft_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft_index" type="array">
+      <obj_property name="ElementShortName">fft_index[12:0]</obj_property>
+      <obj_property name="ObjectShortName">fft_index[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft_valid" type="logic">
+      <obj_property name="ElementShortName">fft_valid</obj_property>
+      <obj_property name="ObjectShortName">fft_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/validator_data" type="array">
+      <obj_property name="ElementShortName">validator_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">validator_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/validator_index" type="array">
+      <obj_property name="ElementShortName">validator_index[12:0]</obj_property>
+      <obj_property name="ObjectShortName">validator_index[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/validator_valid" type="logic">
+      <obj_property name="ElementShortName">validator_valid</obj_property>
+      <obj_property name="ObjectShortName">validator_valid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider16">
+      <obj_property name="label">FFT STUFF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/s_axis_config_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_config_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_config_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/s_axis_config_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_config_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_config_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/s_axis_config_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_config_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_config_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/s_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/s_axis_data_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/s_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_data_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/s_axis_data_tlast" type="logic">
+      <obj_property name="ElementShortName">s_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">s_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/m_axis_data_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/m_axis_data_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/m_axis_data_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/m_axis_data_tuser" type="array">
+      <obj_property name="ElementShortName">m_axis_data_tuser[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tuser[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/m_axis_data_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_data_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/event_frame_started" type="logic">
+      <obj_property name="ElementShortName">event_frame_started</obj_property>
+      <obj_property name="ObjectShortName">event_frame_started</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/event_tlast_unexpected" type="logic">
+      <obj_property name="ElementShortName">event_tlast_unexpected</obj_property>
+      <obj_property name="ObjectShortName">event_tlast_unexpected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/event_tlast_missing" type="logic">
+      <obj_property name="ElementShortName">event_tlast_missing</obj_property>
+      <obj_property name="ObjectShortName">event_tlast_missing</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/event_status_channel_halt" type="logic">
+      <obj_property name="ElementShortName">event_status_channel_halt</obj_property>
+      <obj_property name="ObjectShortName">event_status_channel_halt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/event_data_in_channel_halt" type="logic">
+      <obj_property name="ElementShortName">event_data_in_channel_halt</obj_property>
+      <obj_property name="ObjectShortName">event_data_in_channel_halt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tuner_top_tb/uut/tuner_mod/fft/event_data_out_channel_halt" type="logic">
+      <obj_property name="ElementShortName">event_data_out_channel_halt</obj_property>
+      <obj_property name="ObjectShortName">event_data_out_channel_halt</obj_property>
+   </wvobject>
+</wave_config>

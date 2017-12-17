@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Dec  9 14:45:53 2017
+# Process ID: 10724
+# Current directory: D:/VivadoProjects/FFT_Test/FFT_Test.runs/impl_1
+# Command line: vivado.exe -log fft_module.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source fft_module.tcl -notrace
+# Log file: D:/VivadoProjects/FFT_Test/FFT_Test.runs/impl_1/fft_module.vdi
+# Journal file: D:/VivadoProjects/FFT_Test/FFT_Test.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source fft_module.tcl -notrace

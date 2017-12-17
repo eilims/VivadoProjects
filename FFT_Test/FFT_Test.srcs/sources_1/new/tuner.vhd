@@ -8,9 +8,10 @@ use IEEE.NUMERIC_STD.ALL;
 --use UNISIM.VComponents.all;
 
 entity tuner is
-    Generic (   Data_Length : integer;
-                Index_Length : integer;
-                Threshold : integer);
+    --uncomment and delte semicolons to synthesis
+    Generic (   Data_Length : integer := 8; -- := 8;
+                Index_Length : integer := 13; -- := 13;
+                Threshold : integer := 10); -- := 10);
     Port ( clk : in STD_LOGIC;
             -- The fft module appends the appropriate amount of zeros to make it work
             --Only pass in the real part of the signal

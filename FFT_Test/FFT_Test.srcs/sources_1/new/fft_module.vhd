@@ -115,7 +115,7 @@ begin
                 elsif (count = 8197) then
                     count := 0;
                     s_axis_data_tlast <= '0';
-                    s_axis_data_tvalid <= '0';
+                    --s_axis_data_tvalid <= '0'; -- edited by Jonathan per Figure 3-44 / xfft/v9_0
                     process_state <= '1';
                 else
                     s_axis_data_tlast <= '0';
