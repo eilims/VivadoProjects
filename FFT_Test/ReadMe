@@ -35,4 +35,4 @@ Target Clock Frequency (MHz): 1
 Radix-2, Burst I/O
 Input Data Width: 8
 Output Ordering: Natural Order
-XK_INDEX: Enables (It is a check box)
+XK_INDEX: Enabled (It is a check box)
