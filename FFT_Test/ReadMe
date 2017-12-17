@@ -26,3 +26,13 @@ SW4 - G3 [SWITCH PRIORITY 4]
 SW5 - D3 [SWITCH PRIORITY 3]
 SW6 - A2 [SWITCH PRIORITY 2]
 SW7 - E2 [SWITCH PRIORITY 1]
+
+--FFT IP Core Config--
+Fast Fourier Transform v9.0
+Configurations (Anything not mentioned here remain at their default value):
+Transform Length: 8192
+Target Clock Frequency (MHz): 1
+Radix-2, Burst I/O
+Input Data Width: 8
+Output Ordering: Natural Order
+XK_INDEX: Enables (It is a check box)
