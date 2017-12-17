@@ -1,0 +1,28 @@
+FREQUENCY TUNER INSTRUCTIONS
+by: Daniel Benusovich and Jonathan Midolo
+
+To run the frequency tuner on the ZedBoard:
+
+--Required Hardware--
+1. ZedBoard
+2. Powered Speakers (Mono/Stereo) > HPH OUT (Black)
+3. Aux Input TRS-to-TRS [Optional] > LINE IN (Blue)
+
+--Steps--
+1. Open project tuner_test_48kHz
+2. Generate Bitstream (Synthesis > Implementation > Bitstream)
+3. Open Hardware Manager
+4. Open Target
+5. Program Device
+6. The board can be confirmed programmed by changing the switches to the desired positions (noted below)
+and providing audio input through the LINE IN port (any source) or predesignated sine frequencies.
+
+--Directions--
+SW0 - MUTE ALL / NO FFT INPUT [MAIN PRIORITY 1]
+SW1 - AUDIO IN / NO FFT INPUT [MAIN PRIORITY 2]
+SW2 - E4 [SWITCH PRIORITY 6]
+SW3 - B3 [SWITCH PRIORITY 5]
+SW4 - G3 [SWITCH PRIORITY 4]
+SW5 - D3 [SWITCH PRIORITY 3]
+SW6 - A2 [SWITCH PRIORITY 2]
+SW7 - E2 [SWITCH PRIORITY 1]
